@@ -52,6 +52,7 @@ cc_library_shared {
     ],
     visibility: [
         "//device/generic/goldfish/hals/audio",
+        "//vendor:__subpackages__",
     ],
 }
 
